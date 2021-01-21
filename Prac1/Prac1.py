@@ -1,8 +1,9 @@
 #Práctica 1
 #Aviles Piña Mauricio
-#16DIC2020
+#2021
 
 #Python 3.7.8 64-bit
+#matplotlib 3.3.3
 #Windows 10 
 
 #Llamado de bibliotecas para el uso
@@ -62,7 +63,6 @@ while True:
         break
 
 # Especificación del rango de la población inicial
-
 # Rango de los datos
 print("Rango de los datos [A,B]")
 rango_A = int(input("A: "))
@@ -89,6 +89,7 @@ while True:
     if (ag_representacion == 1 or ag_representacion == 1):
         break
 
+#Binario
 if(ag_representacion==1):
     # Generación de población (Tabla de datos aleatorios)
     datos_random = []
@@ -160,3 +161,6 @@ if(ag_representacion==1):
     plt.annotate('MIN = '+str(ag_min), xy=(ag_minpos, ag_min), xytext=(ag_minpos, ag_min-100),
             arrowprops=dict(facecolor='black', shrink=0.05))
     plt.show()    
+
+#Gray
+#if(ag_representacion == 2):
